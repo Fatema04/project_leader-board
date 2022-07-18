@@ -3,11 +3,46 @@
     margin: 0px;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu:ital@1&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f3f1ff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    width: 870px;
+    padding: 30px;
+}
+
+hr {
+    border: 1px solid #d1d1d1;
+}
+
+
 /*top player style*/
+.top-players {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 26px;
+    color: #562eff;
+    margin-bottom: 30px;
+}
 
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
 }
 
 .player {
@@ -18,4 +53,8 @@
 .player img {
     width: 56px;
     height: 56px;
+}
+
+.player-name {
+    margin: 16px;
 }
