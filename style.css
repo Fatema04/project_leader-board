@@ -149,3 +149,63 @@ hr {
     align-items: center;
 
 }
+
+/*---------------------------
+    Media Qurirs
+----------------------------*/
+
+/*---------------------------
+    Mobile
+----------------------------*/
+
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+
+
+    }
+
+
+    .players,
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .player {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+/*---------------------------
+    Media Qurirs
+----------------------------*/
+
+/*---------------------------
+  ipad
+----------------------------*/
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .container {
+        width: 100%;
+
+
+    }
+
+
+    .players,
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .player {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
