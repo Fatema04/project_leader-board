@@ -104,6 +104,14 @@ hr {
 }
 
 /* course style*/
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+
+
+}
+
 .course-banner img {
     width: 224px;
     height: 104px;
@@ -124,7 +132,20 @@ hr {
         #AEAEAE;
 }
 
+.course-duration {
+    background-color: rgb(251, 200, 200);
+    color: #ED6B4F;
+    padding: 4px 10px;
+    border-radius: 15px;
+}
+
+.fa-clock {
+    padding-left: 5px;
+}
+
 .course-info {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
